@@ -16,6 +16,7 @@ namespace Practica2LuciaGarciaLopez
 
         bool isUserValid = false;
         bool isPasswordValid = false;
+        bool isPasswordEmpty = true;
 
         void OnUserEntryCompleted(object sender, EventArgs e)
         {
@@ -38,10 +39,16 @@ namespace Practica2LuciaGarciaLopez
             if (passwordInputText == "Password1")
             {
                 isPasswordValid = true;
+                isPasswordEmpty = false;
+            }
+            else if (passwordInputText == "")
+            {
+                isPasswordEmpty = true;
             }
             else
             {
                 isPasswordValid = false;
+                isPasswordEmpty = false;
             }
             CanLogin();
         }
@@ -57,7 +64,7 @@ namespace Practica2LuciaGarciaLopez
                 DisplayAlert("Login Exitoso", "Bienvenido " + userInputText, "Aceptar");
             }
             //Para evitar que se muestre el mensaje de error antes de que el usuario haya ingresado ambos campos
-            else if (isUserValid == false)
+            else if (isUserValid == false || isPasswordEmpty == true)
             {
                 return;
             }

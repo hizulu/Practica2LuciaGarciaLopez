@@ -3,10 +3,60 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Practica2LuciaGarciaLopez.Galeria"
              Title="Galeria">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+    <ScrollView>
+        <FlexLayout
+            Direction="Row"
+            Wrap="Wrap"
+            JustifyContent="Center"
+            AlignItems="Center"
+            Margin="10">
+
+            <ImageButton
+                x:Name="tiger"
+                Source="tiger.jpg"
+                WidthRequest="250"
+                HeightRequest="333"
+                Margin="15"
+                Clicked="OnCounterClicked"
+                CommandParameter="Tigre" />
+
+            <ImageButton
+                x:Name="deer"
+                Source="deer.jpg"
+                WidthRequest="250"
+                HeightRequest="333"
+                Margin="15"
+                Clicked="OnCounterClicked"
+                CommandParameter="Ciervo" />
+
+            <ImageButton
+                x:Name="bighorn"
+                Source="bighorn_sheep.jpg"
+                WidthRequest="250"
+                HeightRequest="333"
+                Margin="15"
+                Clicked="OnCounterClicked"
+                CommandParameter="Borrego" />
+
+            <ImageButton
+                x:Name="secretary"
+                Source="secretary_bird.jpg"
+                WidthRequest="250"
+                HeightRequest="333"
+                Margin="15"
+                Clicked="OnCounterClicked"
+                CommandParameter="Secretario" />
+
+            <ImageButton
+                x:Name="meerkat"
+                Source="meerkat.jpg"
+                WidthRequest="250"
+                HeightRequest="333"
+                Margin="15"
+                Clicked="OnCounterClicked"
+                CommandParameter="Suricata" />
+
+        </FlexLayout>
+    </ScrollView>
 </ContentPage>

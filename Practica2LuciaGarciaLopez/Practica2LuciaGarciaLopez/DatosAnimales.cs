@@ -11,9 +11,9 @@ namespace Practica2LuciaGarciaLopez
         public class AnimalData
         {
             public string nombre { get; set; }
+            public string nombreCientifico { get; set; }
             public string imagen { get; set; }
             public string familia { get; set; }
-            public int numeroPatas { get; set; }
         }
         public class Datos
         {
@@ -22,17 +22,35 @@ namespace Practica2LuciaGarciaLopez
             {
                 switch (nombreAnimal)
                 {
-                    case "Gato":
-                        animal.nombre = "Gato";
-                        animal.imagen = "foto_gato.jpg";
+                    case "Ciervo":
+                        animal.nombre = "Ciervo de Cola Blanca";
+                        animal.nombreCientifico = "Odocoileus virginianus";
+                        animal.imagen = "deer.jpg";
                         animal.familia = "Mamífero";
-                        animal.numeroPatas = 4;
                         break;
-                    case "Araña":
-                        animal.nombre = "Araña";
-                        animal.imagen = "foto_arana.jpg";
-                        animal.familia = "Arácnidos";
-                        animal.numeroPatas = 8;
+                    case "Tigre":
+                        animal.nombre = "Tigre Dorado";
+                        animal.nombreCientifico = "Panthera tigris tigris";
+                        animal.imagen = "tiger.jpg";
+                        animal.familia = "Mamífero";                        
+                        break;
+                    case "Secretario":
+                        animal.nombre = "Secretario";
+                        animal.nombreCientifico = "Sagittarius serpentarius";
+                        animal.imagen = "Secretary_bird.jpg";
+                        animal.familia = "Ave";
+                        break;
+                    case "Suricata":
+                        animal.nombre = "Suricata";
+                        animal.nombreCientifico = "Suricata suricatta";
+                        animal.imagen = "meerkat.jpg";
+                        animal.familia = "Mamífero";
+                        break;
+                    case "Borrego":
+                        animal.nombre = "Borrego Cimarrón";
+                        animal.nombreCientifico = "Ovis canadensis";
+                        animal.imagen = "bighorn_sheep.jpg";
+                        animal.familia = "Mamífero";
                         break;
                     default:
                         break;
