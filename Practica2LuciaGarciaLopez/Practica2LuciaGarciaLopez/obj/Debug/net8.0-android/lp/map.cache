@@ -159,3 +159,5 @@ Microsoft.Maui.aar
 Microsoft.Maui.Essentials.aar
 Xamarin.Google.Crypto.Tink.Android.aar
 Xamarin.Google.ErrorProne.Annotations.aar
+Plugin.Fingerprint.dll
+Xamarin.AndroidX.Biometric.dll
