@@ -147,6 +147,7 @@ androidx.navigation.navigation-fragment.aar
 androidx.lifecycle.lifecycle-livedata.aar
 androidx.exifinterface.exifinterface.aar
 androidx.browser.browser.aar
+androidx.biometric.biometric.aar
 gifdecoder.aar
 glide.aar
 GoogleGson.aar
@@ -158,3 +159,5 @@ Microsoft.Maui.aar
 Microsoft.Maui.Essentials.aar
 Xamarin.Google.Crypto.Tink.Android.aar
 Xamarin.Google.ErrorProne.Annotations.aar
+Plugin.Fingerprint.dll
+Xamarin.AndroidX.Biometric.dll
