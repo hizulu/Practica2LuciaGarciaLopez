@@ -1,8 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Practica2LuciaGarciaLopez.MainPage">
+             x:Class="Practica2LuciaGarciaLopez.MainPage"
+             Padding="0,25,0,0"
+             >
 
+    <Shell.TitleView>
+        <HorizontalStackLayout>
+            <Label Text="Iniciar Sesión"                
+               FontSize="{DynamicResource TituloSize}"               
+               FontFamily="{DynamicResource customFont}"/>
+        </HorizontalStackLayout>
+    </Shell.TitleView>
+    
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
@@ -10,16 +20,19 @@
             <Entry
                 x:Name="userEntry"
                 Placeholder="Introduce el nombre de usuario"                
-                Completed="OnUserEntryCompleted" />
+                Completed="OnUserEntryCompleted"
+                FontFamily="{DynamicResource customFont}"/>
             <Entry
                 x:Name="passwordEntry"
                 Placeholder="Introduce la contraseña"
-                Completed="OnPasswordEntryCompleted" />
+                Completed="OnPasswordEntryCompleted" 
+                FontFamily="{DynamicResource customFont}"/>
             <Button
                 x:Name="HuellaBtn"
                 Text="Huella" 
                 Clicked="OnHuellaClicked"
-                HorizontalOptions="Fill" />
+                HorizontalOptions="Fill"
+                FontFamily="{DynamicResource customFont}"/>
         </VerticalStackLayout>
     </ScrollView>
 

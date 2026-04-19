@@ -13,6 +13,10 @@ namespace Practica2LuciaGarciaLopez
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("AlteHaasGroteskRegular.ttf", "AlteHaasGroteskRegular");
+                    fonts.AddFont("AlteHaasGroteskBold.ttf", "AlteHaasGroteskBold");
+                    fonts.AddFont("Butler-Free-Med.ttf", "ButlerFreeMed");
+                    fonts.AddFont("Butler-Free-Bd.ttf", "ButlerFreeBold");
                 });
 
 #if DEBUG

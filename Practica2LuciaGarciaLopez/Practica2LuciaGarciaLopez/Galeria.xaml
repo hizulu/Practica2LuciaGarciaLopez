@@ -2,7 +2,14 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Practica2LuciaGarciaLopez.Galeria"
-             Title="Galeria">
+             Title="Galeria"
+             Padding="0,25,0,0">
+
+    <Shell.TitleView>
+        <Label Text="Galería" 
+               FontSize="{DynamicResource TextoSize}"     
+               FontFamily="{DynamicResource customFont}" />
+    </Shell.TitleView>
 
     <ScrollView>
         <FlexLayout

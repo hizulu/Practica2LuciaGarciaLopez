@@ -5,10 +5,27 @@
              x:Class="Practica2LuciaGarciaLopez.App">
     <Application.Resources>
         <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
-                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
-            </ResourceDictionary.MergedDictionaries>
+
+             <!--COLOR GLOBAL DEL TEXTO--> 
+            <!--<Color x:Key="TextoColor">#000000</Color>-->
+
+             <!--TAMAÑO GLOBAL DEL TEXTO--> 
+            <x:Double x:Key="TextoSize">18</x:Double>
+
+            <!-- FUENTE GLOBAL -->
+            <OnPlatform x:Key="customFont" x:TypeArguments="x:String">
+                <On Platform="Android" Value="AlteHaasGroteskRegular.ttf#AlteHaasGroteskRegular" />
+                <On Platform="iOS" Value="AlteHaasGroteskRegular.ttf#AlteHaasGroteskRegular" />
+                <On Platform="WinUI" Value="Assets/Fonts/AlteHaasGroteskRegular.ttf#AlteHaasGroteskRegular" />
+            </OnPlatform>
+
+            <!-- ESTILO GLOBAL PARA LABEL -->
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource TextoColor}" />
+                <Setter Property="FontSize" Value="{DynamicResource TextoSize}" />
+                <Setter Property="FontFamily" Value="{DynamicResource customFont}" />
+            </Style>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

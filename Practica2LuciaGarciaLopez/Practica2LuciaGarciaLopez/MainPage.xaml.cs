@@ -9,6 +9,10 @@ namespace Practica2LuciaGarciaLopez
         public MainPage()
         {
             InitializeComponent();
+
+            Application.Current.Resources["customFont"] = "AlteHaasGroteskRegular.ttf#AlteHaasGroteskRegular";
+            Application.Current.Resources["TextoSize"] = 18.0;
+            Application.Current.Resources["TituloSize"] = 18.0*2;
         }
 
         string userInputText = string.Empty;

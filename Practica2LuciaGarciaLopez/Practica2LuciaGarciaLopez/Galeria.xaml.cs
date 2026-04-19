@@ -8,7 +8,10 @@ public partial class Galeria : ContentPage
 	public Galeria()
 	{
 		InitializeComponent();
-	}
+
+        Application.Current.Resources["customFont"] = "AlteHaasGroteskRegular.ttf#AlteHaasGroteskRegular";
+        Application.Current.Resources["TituloSize"] = 18.0 * 2;
+    }
 
     private void OnCounterClicked(object sender, EventArgs e)
     {
@@ -27,8 +30,7 @@ public partial class Galeria : ContentPage
         image.SetBinding(Image.SourceProperty, "imagen");
 
         var nombre = new Label
-        {
-            FontSize = 28,
+        {            
             FontAttributes = FontAttributes.Bold,
             HorizontalOptions = LayoutOptions.Center
         };
@@ -36,14 +38,12 @@ public partial class Galeria : ContentPage
 
         var nombreCientifico = new Label
         {
-            FontSize = 20,
             HorizontalOptions = LayoutOptions.Center
         };
         nombreCientifico.SetBinding(Label.TextProperty, "nombreCientifico");
 
         var familia = new Label
         {
-            FontSize = 20,
             HorizontalOptions = LayoutOptions.Center
         };
         familia.SetBinding(Label.TextProperty, "familia");

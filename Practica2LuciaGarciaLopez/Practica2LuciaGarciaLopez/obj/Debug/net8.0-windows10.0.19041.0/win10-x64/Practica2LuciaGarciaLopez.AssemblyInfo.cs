@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Practica2LuciaGarciaLopez")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6e7dc3d3e5e3798c7db6a13a7adae4c6d4c22da2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+58df70e45e4e42da142261f0cebe19b00354316c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Practica2LuciaGarciaLopez")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Practica2LuciaGarciaLopez")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

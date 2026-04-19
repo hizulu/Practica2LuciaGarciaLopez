@@ -2,11 +2,36 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Practica2LuciaGarciaLopez.Configuracion"
-             Title="Configuracion">
+             Title="Configuracion"
+             Padding="0,50,0,0">
+    
+    <Shell.TitleView>
+        <Label Text="Configuracion"  
+               
+               FontSize="{DynamicResource TituloSize}"     
+               FontFamily="{DynamicResource customFont}" />
+    </Shell.TitleView>
+    
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <!--Elegir entre diferentes fuentes de texto-->
+        <Label Text="Elige la fuente de texto:" />
+        <Picker x:Name="fontPicker"                 
+                SelectedIndexChanged="OnFontPickerSelectedIndexChanged">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>AlteHaasGroteskRegular</x:String>
+                    <x:String>ButlerFreeMed</x:String>
+                    <x:String>OpenSansRegular</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+        
+        <!--Elegir el tamaño del texto-->
+        <Label Text="Elige el tamaño del texto:" />
+        <Slider x:Name="fontSizeSlider" 
+                Minimum="14" 
+                Maximum="40" 
+                ValueChanged="OnFontSizeSliderValueChanged" />
+
     </VerticalStackLayout>
 </ContentPage>
