@@ -7,9 +7,28 @@
     Shell.FlyoutBehavior="Disabled"
     Title="Practica2LuciaGarciaLopez">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <FlyoutItem
+    Title="Home">
+        <ShellContent
+       Title="Home"
+       ContentTemplate="{DataTemplate local:MainPage}"
+       Route="MainPage" />
+    </FlyoutItem>
+
+    <FlyoutItem
+    Title="Galeria">
+        <ShellContent
+       Title="Galería"
+       ContentTemplate="{DataTemplate local:Galeria}"
+       Route="Galeria" />
+    </FlyoutItem>
+
+    <FlyoutItem
+    Title="Configuracion">
+        <ShellContent
+       Title="Configuración"
+       ContentTemplate="{DataTemplate local:Configuracion}"
+       Route="Configuracion" />
+    </FlyoutItem>
 
 </Shell>

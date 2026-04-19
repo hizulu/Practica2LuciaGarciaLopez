@@ -63,4 +63,13 @@
 		<PackageReference Include="Plugin.Fingerprint" Version="2.1.5" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="Configuracion.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Galeria.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
