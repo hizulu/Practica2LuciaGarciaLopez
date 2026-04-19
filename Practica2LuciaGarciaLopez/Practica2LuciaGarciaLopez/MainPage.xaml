@@ -15,6 +15,11 @@
                 x:Name="passwordEntry"
                 Placeholder="Introduce la contraseña"
                 Completed="OnPasswordEntryCompleted" />
+            <Button
+                x:Name="HuellaBtn"
+                Text="Huella" 
+                Clicked="OnHuellaClicked"
+                HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>
 

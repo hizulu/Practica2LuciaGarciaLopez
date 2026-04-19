@@ -1,4 +1,7 @@
-﻿namespace Practica2LuciaGarciaLopez
+﻿using Plugin.Fingerprint.Abstractions;
+using Plugin.Fingerprint;
+
+namespace Practica2LuciaGarciaLopez
 {
     public partial class MainPage : ContentPage
     {
@@ -66,5 +69,15 @@
                 DisplayAlert("Login Fallido", "Usuario o contraseña incorrectos", "Aceptar");
             }
         }
+        private async void OnHuellaClicked(object sender, EventArgs e)
+        {
+            var request = new AuthenticationRequestConfiguration("Autenticación", "Autenticar con huella");
+            var result = await CrossFingerprint.Current.AuthenticateAsync(request);
+            if (result.Authenticated)
+                await DisplayAlert("Acceso", "Acceso concedido", "Cerrar");
+            else
+                await DisplayAlert("Acceso", "Acceso denegado", "Cerrar");
+        }
+
     }
 }
