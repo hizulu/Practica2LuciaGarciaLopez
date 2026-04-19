@@ -1,0 +1,6 @@
+# Carpetas de Visual Studio
+.vs/
+
+# Compilacion
+bin/
+obj/
