@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Uni\\4º\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj": {}
+    "D:\\Uni\\4\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj": {}
   },
   "projects": {
-    "D:\\Uni\\4º\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj": {
+    "D:\\Uni\\4\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Uni\\4º\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj",
+        "projectUniqueName": "D:\\Uni\\4\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj",
         "projectName": "Practica2LuciaGarciaLopez",
-        "projectPath": "D:\\Uni\\4º\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj",
+        "projectPath": "D:\\Uni\\4\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj",
         "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
-        "outputPath": "D:\\Uni\\4º\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\obj\\",
+        "outputPath": "D:\\Uni\\4\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -84,6 +84,10 @@
               "target": "Package",
               "version": "[8.0.15, )",
               "autoReferenced": true
+            },
+            "Plugin.Fingerprint": {
+              "target": "Package",
+              "version": "[2.1.5, )"
             }
           },
           "imports": [
@@ -149,6 +153,10 @@
               "target": "Package",
               "version": "[8.0.15, )",
               "autoReferenced": true
+            },
+            "Plugin.Fingerprint": {
+              "target": "Package",
+              "version": "[2.1.5, )"
             }
           },
           "imports": [
@@ -202,6 +210,10 @@
               "target": "Package",
               "version": "[8.0.15, )",
               "autoReferenced": true
+            },
+            "Plugin.Fingerprint": {
+              "target": "Package",
+              "version": "[2.1.5, )"
             }
           },
           "imports": [
@@ -250,6 +262,10 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.100, )"
+            },
+            "Plugin.Fingerprint": {
+              "target": "Package",
+              "version": "[2.1.5, )"
             }
           },
           "imports": [

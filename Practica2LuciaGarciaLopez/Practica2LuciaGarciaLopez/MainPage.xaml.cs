@@ -27,7 +27,7 @@
                 isUserValid = false;
             }
             CanLogin();
-        }            
+        }
 
         void OnPasswordEntryCompleted(object sender, EventArgs e)
         {

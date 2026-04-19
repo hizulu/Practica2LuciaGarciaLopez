@@ -147,6 +147,7 @@ androidx.navigation.navigation-fragment.aar
 androidx.lifecycle.lifecycle-livedata.aar
 androidx.exifinterface.exifinterface.aar
 androidx.browser.browser.aar
+androidx.biometric.biometric.aar
 gifdecoder.aar
 glide.aar
 GoogleGson.aar

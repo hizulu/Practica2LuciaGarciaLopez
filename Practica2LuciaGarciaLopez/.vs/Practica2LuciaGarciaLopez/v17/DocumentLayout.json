@@ -1,17 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Uni\\4\u00BA\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\",
+  "WorkspaceRootPath": "D:\\Uni\\4\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C20938E-A601-4A46-AEBD-628692F2766D}|Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj|d:\\uni\\4\u00BA\\multiplataformas\\practica2luciagarcialopez\\practica2luciagarcialopez\\practica2luciagarcialopez\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C20938E-A601-4A46-AEBD-628692F2766D}|Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj|d:\\uni\\4\\multiplataformas\\practica2luciagarcialopez\\practica2luciagarcialopez\\practica2luciagarcialopez\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C20938E-A601-4A46-AEBD-628692F2766D}|Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj|solutionrelative:practica2luciagarcialopez\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C20938E-A601-4A46-AEBD-628692F2766D}|Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj|d:\\uni\\4\u00BA\\multiplataformas\\practica2luciagarcialopez\\practica2luciagarcialopez\\practica2luciagarcialopez\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6C20938E-A601-4A46-AEBD-628692F2766D}|Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj|d:\\uni\\4\\multiplataformas\\practica2luciagarcialopez\\practica2luciagarcialopez\\practica2luciagarcialopez\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6C20938E-A601-4A46-AEBD-628692F2766D}|Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj|solutionrelative:practica2luciagarcialopez\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C20938E-A601-4A46-AEBD-628692F2766D}|Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj|d:\\uni\\4\\multiplataformas\\practica2luciagarcialopez\\practica2luciagarcialopez\\practica2luciagarcialopez\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C20938E-A601-4A46-AEBD-628692F2766D}|Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj|solutionrelative:practica2luciagarcialopez\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C20938E-A601-4A46-AEBD-628692F2766D}|Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj|d:\\uni\\4\\multiplataformas\\practica2luciagarcialopez\\practica2luciagarcialopez\\practica2luciagarcialopez\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6C20938E-A601-4A46-AEBD-628692F2766D}|Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj|solutionrelative:practica2luciagarcialopez\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C20938E-A601-4A46-AEBD-628692F2766D}|Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj|d:\\uni\\4\\multiplataformas\\practica2luciagarcialopez\\practica2luciagarcialopez\\practica2luciagarcialopez\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6C20938E-A601-4A46-AEBD-628692F2766D}|Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj|solutionrelative:practica2luciagarcialopez\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C20938E-A601-4A46-AEBD-628692F2766D}|Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj|d:\\uni\\4\u00BA\\multiplataformas\\practica2luciagarcialopez\\practica2luciagarcialopez\\practica2luciagarcialopez\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6C20938E-A601-4A46-AEBD-628692F2766D}|Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj|d:\\uni\\4\\multiplataformas\\practica2luciagarcialopez\\practica2luciagarcialopez\\practica2luciagarcialopez\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6C20938E-A601-4A46-AEBD-628692F2766D}|Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez.csproj|solutionrelative:practica2luciagarcialopez\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,13 +42,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "D:\\Uni\\4\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Practica2LuciaGarciaLopez\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "D:\\Uni\\4\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Practica2LuciaGarciaLopez\\Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-04-09T21:02:40.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "D:\\Uni\\4\u00BA\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\AppShell.xaml",
-              "RelativeDocumentMoniker": "Practica2LuciaGarciaLopez\\AppShell.xaml",
-              "ToolTip": "D:\\Uni\\4\u00BA\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\AppShell.xaml",
-              "RelativeToolTip": "Practica2LuciaGarciaLopez\\AppShell.xaml",
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Uni\\4\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Practica2LuciaGarciaLopez\\App.xaml.cs",
+              "ToolTip": "D:\\Uni\\4\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\App.xaml.cs",
+              "RelativeToolTip": "Practica2LuciaGarciaLopez\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T21:48:18.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Uni\\4\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\App.xaml",
+              "RelativeDocumentMoniker": "Practica2LuciaGarciaLopez\\App.xaml",
+              "ToolTip": "D:\\Uni\\4\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\App.xaml",
+              "RelativeToolTip": "Practica2LuciaGarciaLopez\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-09T21:48:12.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\Uni\\4\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Practica2LuciaGarciaLopez\\AppShell.xaml",
+              "ToolTip": "D:\\Uni\\4\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\AppShell.xaml",
+              "RelativeToolTip": "Practica2LuciaGarciaLopez\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-04-09T20:30:50.697Z",
               "EditorCaption": ""
@@ -45,22 +96,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "D:\\Uni\\4\u00BA\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\Uni\\4\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "Practica2LuciaGarciaLopez\\MainPage.xaml.cs",
-              "ToolTip": "D:\\Uni\\4\u00BA\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\MainPage.xaml.cs",
+              "ToolTip": "D:\\Uni\\4\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\MainPage.xaml.cs",
               "RelativeToolTip": "Practica2LuciaGarciaLopez\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAASwDEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-09T20:28:29.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "D:\\Uni\\4\u00BA\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\MainPage.xaml",
+              "DocumentMoniker": "D:\\Uni\\4\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\MainPage.xaml",
               "RelativeDocumentMoniker": "Practica2LuciaGarciaLopez\\MainPage.xaml",
-              "ToolTip": "D:\\Uni\\4\u00BA\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\MainPage.xaml",
+              "ToolTip": "D:\\Uni\\4\\Multiplataformas\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\Practica2LuciaGarciaLopez\\MainPage.xaml",
               "RelativeToolTip": "Practica2LuciaGarciaLopez\\MainPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
