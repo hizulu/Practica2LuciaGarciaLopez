@@ -11,6 +11,7 @@ public partial class Galeria : ContentPage
 
         Application.Current.Resources["customFont"] = "AlteHaasGroteskRegular.ttf#AlteHaasGroteskRegular";
         Application.Current.Resources["TituloSize"] = 18.0 * 2;
+        Application.Current.UserAppTheme = AppTheme.Light;
     }
 
     private void OnCounterClicked(object sender, EventArgs e)

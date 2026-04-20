@@ -33,5 +33,10 @@
                 Maximum="40" 
                 ValueChanged="OnFontSizeSliderValueChanged" />
 
+        <!--Elegir el tema-->
+        <Label Text="Elige el tema de la aplicación: "/>
+        <CheckBox x:Name="colorTheme"
+                  CheckedChanged="OnThemeCheckedChanged"/>
+
     </VerticalStackLayout>
 </ContentPage>

@@ -5,11 +5,9 @@
              x:Class="Practica2LuciaGarciaLopez.App">
     <Application.Resources>
         <ResourceDictionary>
-
-             <!--COLOR GLOBAL DEL TEXTO--> 
-            <!--<Color x:Key="TextoColor">#000000</Color>-->
-
-             <!--TAMAÑO GLOBAL DEL TEXTO--> 
+            
+            
+            <!--TAMAÑO GLOBAL DEL TEXTO--> 
             <x:Double x:Key="TextoSize">18</x:Double>
 
             <!-- FUENTE GLOBAL -->
