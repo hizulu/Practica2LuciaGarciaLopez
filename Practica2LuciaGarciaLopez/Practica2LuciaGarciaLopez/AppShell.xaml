@@ -5,7 +5,11 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Practica2LuciaGarciaLopez"
     Shell.FlyoutBehavior="Disabled"
-    Title="Practica2LuciaGarciaLopez">
+    Title="Practica2LuciaGarciaLopez"
+    
+    FlyoutBackgroundColor="{DynamicResource SecondaryColor}"
+    Shell.BackgroundColor="{DynamicResource Primary}"
+    Shell.TitleColor="{DynamicResource White}">
 
     <FlyoutItem
     Title="Home">

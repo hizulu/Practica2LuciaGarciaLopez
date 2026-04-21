@@ -8,7 +8,6 @@
     <x:Double x:Key="TextoSize">18</x:Double>
     <x:Double x:Key="TituloSize">32</x:Double>
 
-
     <Style TargetType="ActivityIndicator">
         <Setter Property="Color" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />
     </Style>
@@ -168,7 +167,7 @@
     </Style>
 
     <Style TargetType="Label">
-        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={DynamicResource PrimaryTextColorLight}, Dark={DynamicResource PrimaryTextColorDark}}" />
         <Setter Property="BackgroundColor" Value="Transparent" />
         <Setter Property="FontFamily" Value="{DynamicResource customFont}" />
         <Setter Property="FontSize" Value="{DynamicResource TextoSize}" />
@@ -409,11 +408,16 @@
     </Style>
 
     <Style TargetType="Shell" ApplyToDerivedTypes="True">
-        <Setter Property="Shell.BackgroundColor" Value="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource OffBlack}}" />
-        <Setter Property="Shell.ForegroundColor" Value="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource SecondaryDarkText}}" />
-        <Setter Property="Shell.TitleColor" Value="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource SecondaryDarkText}}" />
         <Setter Property="Shell.DisabledColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray950}}" />
         <Setter Property="Shell.UnselectedColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray200}}" />
+        <Setter Property="BackgroundColor" 
+            Value="{AppThemeBinding Light={DynamicResource AppBackgroundColorLight}, Dark={DynamicResource AppBackgroundColorDark}}" />
+        <Setter Property="Shell.ForegroundColor" 
+            Value="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource PrimaryTextColorDark}}" />
+        <Setter Property="Shell.TitleColor" 
+            Value="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource PrimaryTextColorDark}}" />
+        <Setter Property="FlyoutBackgroundColor" 
+            Value="{AppThemeBinding Light={StaticResource AppBackgroundColorLight}, Dark={StaticResource AppBackgroundColorDark}}" />
         <Setter Property="Shell.NavBarHasShadow" Value="False" />
         <Setter Property="Shell.TabBarBackgroundColor" Value="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Black}}" />
         <Setter Property="Shell.TabBarForegroundColor" Value="{AppThemeBinding Light={StaticResource Magenta}, Dark={StaticResource White}}" />

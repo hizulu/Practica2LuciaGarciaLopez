@@ -6,8 +6,7 @@
              Padding="0,50,0,0">
     
     <Shell.TitleView>
-        <Label Text="Configuracion"  
-               
+        <Label Text="Configuracion"                 
                FontSize="{DynamicResource TituloSize}"     
                FontFamily="{DynamicResource customFont}" />
     </Shell.TitleView>
@@ -34,7 +33,7 @@
                 ValueChanged="OnFontSizeSliderValueChanged" />
 
         <!--Elegir el tema-->
-        <Label Text="Elige el tema de la aplicación: "/>
+        <Label Text="Modo oscuro: "/>
         <CheckBox x:Name="colorTheme"
                   CheckedChanged="OnThemeCheckedChanged"/>
 

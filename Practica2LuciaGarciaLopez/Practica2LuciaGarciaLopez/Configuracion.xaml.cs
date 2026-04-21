@@ -30,14 +30,7 @@ public partial class Configuracion : ContentPage
 
     void OnThemeCheckedChanged(object sender, CheckedChangedEventArgs e)
     {
-        if (e.Value)
-        {
-            Application.Current.UserAppTheme = AppTheme.Dark;
-        }
-        else
-        {
-            Application.Current.UserAppTheme = AppTheme.Light;
-        }
+        Application.Current.UserAppTheme = e.Value ? AppTheme.Dark : AppTheme.Light;
     }
 
 }
