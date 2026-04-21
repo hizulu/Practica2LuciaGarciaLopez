@@ -4,9 +4,9 @@
              x:Class="Practica2LuciaGarciaLopez.MainPage"
              BackgroundColor="{AppThemeBinding Light={StaticResource Gray100}, 
                               Dark={StaticResource AppBackgroundColorDark}}">
-    
-    <VerticalStackLayout VerticalOptions="Center" Padding="30" Spacing="20">
 
+    <VerticalStackLayout VerticalOptions="Center" Padding="30" Spacing="20">
+        <!--Texto de bienvenida-->
         <Label Text="BIENVENIDO" 
                FontSize="32" 
                FontAttributes="Bold"
@@ -17,7 +17,8 @@
             <Border.Shadow>
                 <Shadow Brush="Black" Offset="0,10" Opacity="0.1" Radius="20" />
             </Border.Shadow>
-
+            
+            <!--Entradas de texto y botones de inicio de sesión-->
             <VerticalStackLayout Spacing="15">
                 <Entry x:Name="userEntry" Placeholder="Usuario" />
                 <Entry x:Name="passwordEntry" Placeholder="Contraseña" IsPassword="True" />

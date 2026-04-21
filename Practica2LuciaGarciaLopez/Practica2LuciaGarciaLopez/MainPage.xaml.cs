@@ -14,6 +14,11 @@ namespace Practica2LuciaGarciaLopez
             Application.Current.Resources["TituloSize"] = 36.0;
         }
 
+        /// <summary>
+        /// Función para entrar a la aplicación después de un login exitoso, ya sea manual o biométrico
+        /// </summary>
+        /// <param name="nombreUsuario"></param>
+        /// <returns></returns>
         private async Task EntrarApp(string nombreUsuario)
         {
             var appshell = Application.Current.MainPage as AppShell;
@@ -27,7 +32,11 @@ namespace Practica2LuciaGarciaLopez
             }
         }
 
-        // Evento del botón de Login manual
+        /// <summary>
+        /// Evento del botón de login, verifica las credenciales y llama a la función para entrar a la aplicación si son correctas.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void OnLoginClicked(object sender, EventArgs e)
         {
             string user = userEntry.Text;
@@ -43,7 +52,11 @@ namespace Practica2LuciaGarciaLopez
             }
         }
 
-        // Evento de la Huella
+        /// <summary>
+        /// Evento del botón de huella, utiliza el plugin de huella para autenticar al usuario y llama a la función para entrar a la aplicación si la autenticación es exitosa.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void OnHuellaClicked(object sender, EventArgs e)
         {
             var request = new AuthenticationRequestConfiguration("Autenticación", "Accede a tu galería");

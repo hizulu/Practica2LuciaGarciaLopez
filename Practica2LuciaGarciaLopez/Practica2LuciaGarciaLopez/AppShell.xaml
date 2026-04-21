@@ -6,7 +6,7 @@
     xmlns:local="clr-namespace:Practica2LuciaGarciaLopez"
     Shell.FlyoutBehavior="Disabled"
     Title="Practica2LuciaGarciaLopez"
-    
+        
     FlyoutBackgroundColor="{DynamicResource SecondaryColor}"
     Shell.BackgroundColor="{DynamicResource Primary}"
     Shell.TitleColor="{DynamicResource White}">

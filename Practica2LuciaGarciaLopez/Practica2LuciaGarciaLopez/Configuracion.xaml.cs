@@ -13,11 +13,21 @@ public partial class Configuracion : ContentPage
         Application.Current.UserAppTheme = AppTheme.Light;
     }
 
+    /// <summary>
+    /// Evento del slider de tamaño de texto, actualiza el recurso de tamaño de texto en la aplicación para que se refleje en todas las páginas que lo utilizan.
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     private void OnSizeChanged(object sender, ValueChangedEventArgs e)
     {
         Application.Current.Resources["TextoSize"] = e.NewValue;
     }
 
+    /// <summary>
+    /// Evento del picker de fuentes, actualiza el recurso de fuente personalizada en la aplicación para que se refleje en todas las páginas que lo utilizan.
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     private void OnFontChanged(object sender, EventArgs e)
     {
         if (fontPicker.SelectedIndex != -1)
@@ -27,6 +37,11 @@ public partial class Configuracion : ContentPage
         }
     }
 
+    /// <summary>
+    /// Evento del switch de tema, actualiza el tema de la aplicación entre claro y oscuro según el valor del switch.
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     private void OnThemeToggled(object sender, ToggledEventArgs e)
     {
         Application.Current.UserAppTheme = e.Value ? AppTheme.Dark : AppTheme.Light;

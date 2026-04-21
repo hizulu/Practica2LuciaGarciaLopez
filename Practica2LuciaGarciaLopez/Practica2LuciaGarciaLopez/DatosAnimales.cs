@@ -8,6 +8,9 @@ namespace Practica2LuciaGarciaLopez
 {
     internal class DatosAnimales
     {
+        /// <summary>
+        /// Clase para almacenar los datos de cada animal, incluyendo su nombre común, nombre científico, imagen y familia.
+        /// </summary>
         public class AnimalData
         {
             public string nombre { get; set; }
@@ -20,6 +23,7 @@ namespace Practica2LuciaGarciaLopez
             public AnimalData animal = new AnimalData();
             public AnimalData GetAnimalData(string nombreAnimal)
             {
+                // Asigna los datos del animal según el nombre recibido
                 switch (nombreAnimal)
                 {
                     case "Ciervo":

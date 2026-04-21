@@ -15,6 +15,11 @@ public partial class Galeria : ContentPage
         Application.Current.UserAppTheme = AppTheme.Light;
     }
 
+    /// <summary>
+    /// Evento del botón de cada animal, obtiene los datos del animal seleccionado y muestra una nueva página con la información detallada del animal.
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     private void OnCounterClicked(object sender, EventArgs e)
     {
         ImageButton imageButton = sender as ImageButton;
@@ -23,6 +28,7 @@ public partial class Galeria : ContentPage
         Datos data = new Datos();
         AnimalData animalData = data.GetAnimalData(animal);
 
+        // Creación de la nueva página con la información del animal
         var image = new Image
         {
             Aspect = Aspect.AspectFit,
@@ -48,6 +54,7 @@ public partial class Galeria : ContentPage
         familia.SetBinding(Label.TextProperty, "familia");
         familia.SetDynamicResource(Label.FontSizeProperty, "TextoSize");
 
+        // Layout para organizar los elementos en la página
         var layout = new VerticalStackLayout
         {
             Padding = 0,
@@ -55,6 +62,7 @@ public partial class Galeria : ContentPage
             Children = { image, nombre, nombreCientifico, familia }
         };
 
+        // Creación de la página y navegación a ella
         var page = new ContentPage
         {
             Title = animal,
