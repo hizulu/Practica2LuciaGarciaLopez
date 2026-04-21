@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Practica2LuciaGarciaLopez"
              x:Class="Practica2LuciaGarciaLopez.App">
+
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -11,19 +12,22 @@
             </ResourceDictionary.MergedDictionaries>
 
             <x:Double x:Key="TextoSize">18</x:Double>
-
-            <OnPlatform x:Key="customFont" x:TypeArguments="x:String">
-                <On Platform="Android" Value="AlteHaasGroteskRegular.ttf#AlteHaasGroteskRegular" />
-                <On Platform="iOS" Value="AlteHaasGroteskRegular.ttf#AlteHaasGroteskRegular" />
-                <On Platform="WinUI" Value="Assets/Fonts/AlteHaasGroteskRegular.ttf#AlteHaasGroteskRegular" />
-            </OnPlatform>
+            <x:Double x:Key="TituloSize">24</x:Double>
+            <x:String x:Key="customFont">AlteHaasGroteskRegular</x:String>
 
             <Style TargetType="Label">
-                <Setter Property="FontSize" Value="{StaticResource TextoSize}" />
-                <Setter Property="FontFamily" Value="{StaticResource customFont}" />
+                <Setter Property="FontSize" Value="{DynamicResource TextoSize}" />
+                <Setter Property="FontFamily" Value="{DynamicResource customFont}" />
                 <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource PrimaryTextColorLight}, Dark={StaticResource PrimaryTextColorDark}}" />
             </Style>
 
+            <Style TargetType="Button">
+                <Setter Property="CornerRadius" Value="12" />
+                <Setter Property="HeightRequest" Value="50" />
+                <Setter Property="FontFamily" Value="{DynamicResource customFont}" />
+                <Setter Property="BackgroundColor" Value="{DynamicResource Primary}" />
+                <Setter Property="TextColor" Value="White" />
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

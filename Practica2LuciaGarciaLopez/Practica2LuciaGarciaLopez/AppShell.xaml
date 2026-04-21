@@ -12,9 +12,9 @@
     Shell.TitleColor="{DynamicResource White}">
 
     <FlyoutItem
-    Title="Home">
+    Title="InicioSesion">
         <ShellContent
-       Title="Home"
+       Title="Iniciar Sesión"
        ContentTemplate="{DataTemplate local:MainPage}"
        Route="MainPage" />
     </FlyoutItem>

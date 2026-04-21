@@ -5,12 +5,6 @@
              Title="Galeria"
              Padding="0,25,0,0">
 
-    <Shell.TitleView>
-        <Label Text="Galería" 
-               FontSize="{DynamicResource TextoSize}"     
-               FontFamily="{DynamicResource customFont}" />
-    </Shell.TitleView>
-
     <ScrollView>
         <FlexLayout
             Direction="Row"
@@ -19,50 +13,87 @@
             AlignItems="Center"
             Margin="10">
 
-            <ImageButton
-                x:Name="tiger"
-                Source="tiger.jpg"
-                WidthRequest="250"
-                HeightRequest="333"
-                Margin="15"
-                Clicked="OnCounterClicked"
-                CommandParameter="Tigre" />
+            <Border Margin="15" 
+                    StrokeShape="RoundRectangle 20" 
+                    StrokeThickness="0" 
+                    WidthRequest="250" 
+                    HeightRequest="333">
 
-            <ImageButton
-                x:Name="deer"
-                Source="deer.jpg"
-                WidthRequest="250"
-                HeightRequest="333"
-                Margin="15"
-                Clicked="OnCounterClicked"
-                CommandParameter="Ciervo" />
+                <Border.Shadow>
+                    <Shadow Brush="Black" Offset="0,5" Opacity="0.2" Radius="10" />
+                </Border.Shadow>
 
-            <ImageButton
-                x:Name="bighorn"
-                Source="bighorn_sheep.jpg"
-                WidthRequest="250"
-                HeightRequest="333"
-                Margin="15"
-                Clicked="OnCounterClicked"
-                CommandParameter="Borrego" />
+                <ImageButton
+                    x:Name="tiger"
+                    Source="tiger.jpg"
+                    Aspect="AspectFill"
+                    Clicked="OnCounterClicked"
+                    CommandParameter="Tigre" />
+            </Border>
 
-            <ImageButton
-                x:Name="secretary"
-                Source="secretary_bird.jpg"
-                WidthRequest="250"
-                HeightRequest="333"
-                Margin="15"
-                Clicked="OnCounterClicked"
-                CommandParameter="Secretario" />
+            <Border Margin="15" 
+                    StrokeShape="RoundRectangle 20" 
+                    StrokeThickness="0" 
+                    WidthRequest="250" 
+                    HeightRequest="333">
+                <Border.Shadow>
+                    <Shadow Brush="Black" Offset="0,5" Opacity="0.2" Radius="10" />
+                </Border.Shadow>
+                <ImageButton
+                    x:Name="deer"
+                    Source="deer.jpg"
+                    Aspect="AspectFill"
+                    Clicked="OnCounterClicked"
+                    CommandParameter="Ciervo" />
+            </Border>
+            
+            <Border Margin="15" 
+                    StrokeShape="RoundRectangle 20" 
+                    StrokeThickness="0" 
+                    WidthRequest="250" 
+                    HeightRequest="333">
+                <Border.Shadow>
+                    <Shadow Brush="Black" Offset="0,5" Opacity="0.2" Radius="10" />
+                </Border.Shadow>
+                <ImageButton
+                    x:Name="bighorn"
+                    Source="bighorn_sheep.jpg"
+                    Aspect="AspectFill"
+                    Clicked="OnCounterClicked"
+                    CommandParameter="Borrego" />
+            </Border>
 
-            <ImageButton
-                x:Name="meerkat"
-                Source="meerkat.jpg"
-                WidthRequest="250"
-                HeightRequest="333"
-                Margin="15"
-                Clicked="OnCounterClicked"
-                CommandParameter="Suricata" />
+            <Border Margin="15" 
+                    StrokeShape="RoundRectangle 20" 
+                    StrokeThickness="0" 
+                    WidthRequest="250" 
+                    HeightRequest="333">
+                <Border.Shadow>
+                    <Shadow Brush="Black" Offset="0,5" Opacity="0.2" Radius="10" />
+                </Border.Shadow>
+                <ImageButton
+                    x:Name="secretary"
+                    Source="secretary_bird.jpg"
+                    Aspect="AspectFill"
+                    Clicked="OnCounterClicked"
+                    CommandParameter="Secretario" />
+            </Border>
+
+            <Border Margin="15" 
+                    StrokeShape="RoundRectangle 20" 
+                    StrokeThickness="0" 
+                    WidthRequest="250" 
+                    HeightRequest="333">
+                <Border.Shadow>
+                    <Shadow Brush="Black" Offset="0,5" Opacity="0.2" Radius="10" />
+                </Border.Shadow>
+                <ImageButton
+                    x:Name="meerkat"
+                    Source="meerkat.jpg"
+                    Aspect="AspectFill"
+                    Clicked="OnCounterClicked"
+                    CommandParameter="Suricata" />
+            </Border>
 
         </FlexLayout>
     </ScrollView>

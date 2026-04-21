@@ -13,7 +13,12 @@ public partial class Configuracion : ContentPage
         Application.Current.UserAppTheme = AppTheme.Light;
     }
 
-    void OnFontPickerSelectedIndexChanged(object sender, EventArgs e)
+    private void OnSizeChanged(object sender, ValueChangedEventArgs e)
+    {
+        Application.Current.Resources["TextoSize"] = e.NewValue;
+    }
+
+    private void OnFontChanged(object sender, EventArgs e)
     {
         if (fontPicker.SelectedIndex != -1)
         {
@@ -21,16 +26,9 @@ public partial class Configuracion : ContentPage
             Application.Current.Resources["customFont"] = selectedFont;
         }
     }
-    void OnFontSizeSliderValueChanged(object sender, ValueChangedEventArgs e)
-    {
-        double fontSize = e.NewValue;
-        Application.Current.Resources["TextoSize"] = fontSize;
-        Application.Current.Resources["TituloSize"] = fontSize*2;        
-    }
 
-    void OnThemeCheckedChanged(object sender, CheckedChangedEventArgs e)
+    private void OnThemeToggled(object sender, ToggledEventArgs e)
     {
         Application.Current.UserAppTheme = e.Value ? AppTheme.Dark : AppTheme.Light;
     }
-
 }

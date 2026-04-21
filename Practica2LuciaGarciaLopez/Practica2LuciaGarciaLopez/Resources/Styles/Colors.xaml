@@ -11,12 +11,12 @@
     <Color x:Key="PrimaryTextColorLight">#000000</Color>
     <Color x:Key="PrimaryTextColorDark">#F2F2F7</Color>
 
-    <Color x:Key="NavBarColorLight">#512BD4</Color>
-    <Color x:Key="NavBarColorDark">#000000</Color>
+    <Color x:Key="NavBarColorLight">#FF8BDC</Color>
+    <Color x:Key="NavBarColorDark">#9C007F</Color>
 
 
-    <Color x:Key="Primary">#512BD4</Color>
-    <Color x:Key="PrimaryDark">#ac99ea</Color>
+    <Color x:Key="Primary">#FF8BDC</Color>
+    <Color x:Key="PrimaryDark">#9C007F</Color>
     <Color x:Key="PrimaryDarkText">#242424</Color>
     <Color x:Key="Secondary">#DFD8F7</Color>
     <Color x:Key="SecondaryDarkText">#9880e5</Color>
