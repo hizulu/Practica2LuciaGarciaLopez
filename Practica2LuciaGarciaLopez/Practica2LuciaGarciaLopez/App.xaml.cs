@@ -6,7 +6,10 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();            
+            MainPage = new AppShell();
+
+            //Para que la aplicación se inicie con el modo claro
+            this.UserAppTheme = AppTheme.Light;
         }
     }
 }

@@ -13,7 +13,6 @@
 
         <Border StrokeShape="RoundRectangle 15" 
                 Padding="20" 
-                BackgroundColor="{AppThemeBinding Light=White, Dark={StaticResource Gray900}}" 
                 StrokeThickness="0">
             
             <!--Modo oscuro-->

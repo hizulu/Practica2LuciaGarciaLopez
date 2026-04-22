@@ -59,6 +59,14 @@ namespace Practica2LuciaGarciaLopez
         /// <param name="e"></param>
         private async void OnHuellaClicked(object sender, EventArgs e)
         {
+            //Handler para cuando se pulsa el botón en un emulador que no es el android
+            if (DeviceInfo.Platform != DevicePlatform.Android && DeviceInfo.Platform != DevicePlatform.iOS)
+            {
+                await DisplayAlert("Biometría", "La autenticación biométrica solo está disponible en Android o iOS.", "OK");
+                return;
+            }
+
+            //Configuración de la autenticación biométrica
             var request = new AuthenticationRequestConfiguration("Autenticación", "Accede a tu galería");
             var result = await CrossFingerprint.Current.AuthenticateAsync(request);
 

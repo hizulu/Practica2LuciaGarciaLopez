@@ -12,7 +12,6 @@ public partial class Galeria : ContentPage
 
         Application.Current.Resources["customFont"] = "AlteHaasGroteskRegular.ttf#AlteHaasGroteskRegular";
         Application.Current.Resources["TituloSize"] = 18.0 * 2;
-        Application.Current.UserAppTheme = AppTheme.Light;
     }
 
     /// <summary>
@@ -70,8 +69,6 @@ public partial class Galeria : ContentPage
             BindingContext = animalData,
             Content = new ScrollView { Content = layout }
         };
-
-        page.SetDynamicResource(VisualElement.BackgroundColorProperty, "AppBackgroundColorLight");
 
         Navigation.PushAsync(page);
     }
